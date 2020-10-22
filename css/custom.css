@@ -1,0 +1,127 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+	font-family: sans-serif;
+
+}
+
+header{
+ background: #f5f9fcf2;
+ padding: 15px 0;
+}
+
+.container {
+   width: 1000px;
+   margin: auto;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+}
+
+.logo {
+  width: 20%;
+  flex: 0 1 auto;
+}
+nav {
+ width: 80%;
+ background: #f6f1f11f;
+ flex: 0 1 auto;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+}
+
+nav ul li {
+	display: flex;
+
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  justify-content: flex-end;
+  color: #362525;
+  padding: 18px;
+}
+
+section {
+	background-repeat: no-repeat;
+   height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+section .container {
+	height: 100%;
+	flex-direction: column;
+	align-items: flex-start;
+	padding-bottom: 150px;
+	justify-content: flex-end;
+}
+
+section p {
+	margin-bottom: 26px;
+	font-size: 11px;
+	font-weight: 500;
+	line-height: 14px;
+	letter-spacing: 1px;
+	color: rgb(138, 140, 118);
+}
+
+section .container h2 {
+	color: rgb(46, 46, 44);
+	background: white;
+	font-size: 20px;
+	padding: 16px 35px;
+	line-height: 26px;
+	font-weight: 400;
+
+}
+
+section .container  a {
+	color: white;
+	background: black;
+	font-size: 10px;
+	text-decoration: none;
+	padding: 1px 17px;
+	margin-bottom: 50px;
+	line-height: 22px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+}
+
+.c-red{
+  background-image: url("../Img/holod.jpeg");
+  
+}
+.c-pink{
+  background-image: url("../Img/pic 2.jpeg");
+}
+.c-blue{
+  background-image: url("../Img/pic 3.jpeg");
+}
+.c-green{
+  background-image: url("../Img/pic 4.jpeg");
+}
+.c-orange {
+  background-image: url("../Img/pic 5.jpeg");
+}
+
+footer {
+	max-width: 100%;
+   height: 170px;
+   padding: 30px 0px 25px 200px;
+}
+
+
+
+
+
